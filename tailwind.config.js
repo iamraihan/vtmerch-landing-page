@@ -32,12 +32,17 @@ module.exports = {
     extend: {
       fontSize: {
         "112px": "112px",
+        "140px": "140px",
       },
       colors: {
         red: "#EA2127",
       },
       maxWidth: {
         "1684px": "1684px",
+        "1733px": "1733px",
+      },
+      lineHeight: {
+        "168px": "168px",
       },
     },
   },
