@@ -30,6 +30,12 @@ module.exports = {
       "act-of-rejection": ["var(--font-act-of-rejection)"],
     },
     extend: {
+      fontSize: {
+        "112px": "112px",
+      },
+      colors: {
+        red: "#EA2127",
+      },
       maxWidth: {
         "1684px": "1684px",
       },
