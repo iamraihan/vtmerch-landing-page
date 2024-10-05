@@ -1,5 +1,7 @@
 import { Inter, Montserrat } from "next/font/google";
 import localFont from "next/font/local";
+// Import Swiper styles
+import "swiper/css";
 import "./globals.css";
 
 const actOfRejection = localFont({

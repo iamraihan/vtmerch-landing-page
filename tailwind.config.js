@@ -11,7 +11,7 @@ module.exports = {
       sm: "640px",
       md: "768px",
       lg: "1024px",
-      xl: "1200px",
+      xl: "1440px",
       "2xl": "1634px",
     },
 
@@ -43,6 +43,10 @@ module.exports = {
       },
       lineHeight: {
         "168px": "168px",
+        "120%": "120%",
+      },
+      dropShadow: {
+        "hero-shadow": "6px 6px 25px rgba(102, 66, 66, 0.2)",
       },
     },
   },
