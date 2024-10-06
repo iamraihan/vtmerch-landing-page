@@ -31,11 +31,13 @@ module.exports = {
     },
     extend: {
       fontSize: {
+        "70px": "70px",
         "112px": "112px",
         "140px": "140px",
       },
       colors: {
         red: "#EA2127",
+        dark: "#060606",
       },
       maxWidth: {
         "1684px": "1684px",
@@ -47,6 +49,7 @@ module.exports = {
       },
       dropShadow: {
         "hero-shadow": "6px 6px 25px rgba(102, 66, 66, 0.2)",
+        "get-one-card": "6px 6px 12px rgba(47, 47, 47, 0.02)",
       },
     },
   },
