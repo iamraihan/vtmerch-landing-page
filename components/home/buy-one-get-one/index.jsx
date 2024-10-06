@@ -5,12 +5,12 @@ import { buyOneGetOneCardData } from "./helper/uiData";
 const BuyOneGetOne = () => {
   return (
     <section className="bg-[#F6F5F5]">
-      <div className="container mx-auto  py-24">
-        <h2 className="text-dark font-semibold uppercase text-70px font-montserrat tracking-tight leading-120% max-w-[1088px] mb-12">
+      <div className="container mx-auto py-10 md:py-24">
+        <h2 className="text-dark font-semibold uppercase text-xl sm:text-2xl md:text-3xl lg:text-70px font-montserrat tracking-tight leading-normal xl:leading-120% max-w-[1088px] md:mb-12 mb-6">
           Buy 1 get 1 Free on
           <span className="stroke-title"> best selling products</span>
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {buyOneGetOneCardData.map((item) => (
             <div
               className="rounded-xl bg-white drop-shadow-get-one-card p-4"

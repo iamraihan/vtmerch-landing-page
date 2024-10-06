@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .stroke-title {
-  font-size: 70px;
+  /* font-size: 70px; */
   color: transparent;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
